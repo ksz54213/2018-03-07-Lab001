@@ -1,0 +1,19 @@
+
+int LED =13;
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode( LED,OUTPUT);
+}
+
+
+void loop() {
+  // wait for a second
+  
+  digitalWrite(LED,HIGH);
+  delay(1000);
+  digitalWrite(LED,LOW);
+  delay(1000);
+}
+
+
+
